@@ -2,8 +2,12 @@ import React from 'react'
 import { Form, Input, Button } from 'antd';
 import { UserOutlined, LockOutlined } from '@ant-design/icons';
 import axios from 'axios'
+import { useNavigate } from "react-router-dom";
+
+
 
  function Login () {
+  const navigate = useNavigate()
   const onFinish = values => {
     console.log('Received values of form: ', values)
     const {username, password} = values
@@ -11,6 +15,7 @@ import axios from 'axios'
     .then(res => {
       if(res.data.validation){
         alert('Helyes jelszó és felhasználónév')
+        navigate('/App')
       }
       else{
         alert('Helytelen jelszó és felhasználónév')
