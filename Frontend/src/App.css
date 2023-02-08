@@ -1,11 +1,10 @@
 body{
   background-color: aliceblue;
 }
-#root {
+.App{
   max-width: 70%;
   margin: 0 auto;
   padding: 0;
-  /*text-align: center;*/
   background-color: bisque;
   font-family: Verdana;
 }
