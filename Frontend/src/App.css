@@ -59,3 +59,12 @@ list-style: none;
 footer{
   background-color: grey;
 }
+.datamain{
+  padding: 20px;
+}
+h2{
+  text-decoration: underline;
+}
+p{
+  padding-left: 30px;
+}
