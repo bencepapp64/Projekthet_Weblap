@@ -1,7 +1,18 @@
+body{
+  background-color: aliceblue;
+}
 #root {
-  max-width: 1280px;
+  max-width: 70%;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0;
+  /*text-align: center;*/
+  background-color: bisque;
+  font-family: Verdana;
+}
+.main{
+  padding: 1rem;
+}
+h1{
   text-align: center;
 }
 
@@ -39,4 +50,13 @@
 
 .read-the-docs {
   color: #888;
+}
+.csapat{
+  padding: 0px;
+}
+.csapat ul li{
+list-style: none;
+}
+footer{
+  background-color: grey;
 }
