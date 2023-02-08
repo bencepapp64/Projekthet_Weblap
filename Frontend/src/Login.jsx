@@ -1,3 +1,5 @@
+import React from 'react'
+
 function Login(){
     return(
         <div className="Login">
@@ -17,3 +19,5 @@ function Login(){
     </div>
     )
 }
+
+export default Login
