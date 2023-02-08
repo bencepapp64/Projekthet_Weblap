@@ -1,6 +1,9 @@
 import { useState } from 'react'
+<<<<<<< HEAD
 import reactLogo from './assets/react.svg'
 import mainkep from './img/main.jpg'
+=======
+>>>>>>> 4d92c127cc7d95fec3aabdbe74fe18c87cc6057a
 import './App.css'
 
 function App() {
