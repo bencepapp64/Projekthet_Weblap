@@ -70,3 +70,18 @@ h2{
 p{
   padding-left: 30px;
 }
+.adkep{
+  max-width: 50%;
+  float: right;
+  margin-left: 20px;
+}
+.mainkep{
+  max-width: 100%;
+}
+.configkep{
+  max-width: 50%;
+  float: right;
+}
+.munkakep{
+  max-width: 100%;
+}

@@ -1,6 +1,9 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import mainkep from './img/main.jpg'
+import adkep from './img/ad.jpg'
+import munkakep from './img/munka.jpg'
+import configkep from './img/config.jpg'
 import './App.css'
 
 function App() {
@@ -24,13 +27,12 @@ function App() {
         <div class="datamain">
           {/*HÁLÓZAT*/}
           <h2>Hálózat:</h2>
-          <img src={mainkep} />
-          <p>- Probléma forrás: elméleti alapok hiánya HSRP-vel kapcsolatban<br/>
-              - Topológia kiépítése, struktúra kialakítása <br />
+          <img src={mainkep} className="mainkep"/>
+          <p> - Topológia kiépítése, struktúra kialakítása <br />
               - RS3-as tananyagok beleépítése (EIGRP, HSRP, LinkA) <br /> 
               - Minden eszköz Host neve megadva.
           </p>
-            
+          <img src={configkep} className="configkep"></img>
           <p>
             - R1 és R2 routerek ellátva megfelelő IP címekkel, <br />
             - Rendelkeznek EIGRP forgalomirányító protokollokkal, továbbá EIGRP hitelesítéssel. <br />
@@ -55,7 +57,7 @@ function App() {
           - PC0 csatlakozik az R2 VPN kiszolgálóhoz. 
           </p>
           <p>
-          - UTP kábelek készítése  (img) <br />
+          - UTP kábelek készítése <br />
           - Eszközök konfigurációjának megkezdése & <br />
           - Eszközök csatlakoztatása a topológiának megfelelően <br />
           - Telneten keresztül el lehet érni minden eszközt, A 3 switchet, a 2 routert és az AP-t. <br />
@@ -63,6 +65,7 @@ function App() {
 
           {/*WINDOWS SZERVER*/}
           <h2>Windows szerver:</h2>
+          <img src={adkep} className="adkep"/>
           <p>
             - Az egyszerűség kedvéért virtualboxban oldottuk meg a szerver kérdését <br />
             - Windows Server 2019-et használtunk a feladat megvalósításához <br />
@@ -73,8 +76,10 @@ function App() {
               <li>Szóval a feladatot kis környezetben, a konfigolt eszközökkel, globális hálózat nélkül valósítottuk meg.</li>
             </ul>
             - Az Active Directory telepítése még (02.08, 17:19) nem kezdődött meg, mert az újratervezés miatt ez egy újabb ötlet volt <br />
-            - Ebben az időpontban működik a DNS kiszolgáló, az FTP szerver és az IIS is. 
+            - Ebben az időpontban működik a DNS kiszolgáló, az FTP szerver és az IIS is. <br />
+            - Sikeresen feltelepült az AD kiszolgáló is, a tesztek lezajlottak és működőképes a rendszer.
           </p>
+          
           {/*LINUX SZERVER*/}
           <h2>Linux szerver</h2>
           <p>
@@ -138,6 +143,7 @@ function App() {
             <li>Frontend fejlesztése</li>
             <li>Teszt</li>
           </ul>
+          <img src={munkakep} className="munkakep"></img>
         </div>
         <footer>
           <p>Minden jog fenttartva! &copy;</p>
