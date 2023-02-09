@@ -1,5 +1,6 @@
 body{
   background-color: aliceblue;
+  color: black;
 }
 .App{
   max-width: 70%;
@@ -7,6 +8,7 @@ body{
   padding: 0;
   background-color: bisque;
   font-family: Verdana;
+  color: black;
 }
 .main{
   padding: 1rem;

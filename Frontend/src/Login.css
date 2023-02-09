@@ -1,0 +1,17 @@
+body{
+    background-color: rgba(0, 0, 0, 0.95);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-form-button{
+   margin: auto;
+}
+h2{
+    text-decoration: none;
+    text-align: left;
+}
+.Login{
+    text-align: center;
+}
