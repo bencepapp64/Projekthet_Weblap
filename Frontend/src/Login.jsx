@@ -15,7 +15,6 @@ import './Login.css'
     axios.post('http://localhost:3001/validatePassword', {username, password})
     .then(res => {
       if(res.data.validation){
-        alert('Helyes jelszó és felhasználónév')
         navigate('/App')
       }
       else{
